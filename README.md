@@ -1,10 +1,10 @@
-# Blazor.Auth0
+# Blazor.Cognito
 
 <img src="https://raw.githubusercontent.com/henalbrod/Blazor.Auth0/master/src/Blazor.Auth0.ClientSide/icon.png" height="150" alt="Blazor Auth0 Library" align="right"/>
 
-[Blazor.Auth0](https://github.com/henalbrod/Blazor.Auth0) Is a library for using the [Authorization Code Grant with Proof Key for Code Exchange (PKCE)](https://auth0.com/blog/oauth2-implicit-grant-and-spa/) with [Auth0's Universal Login](https://auth0.com/docs/libraries/when-to-use-lock) in Blazor SPAs.
+([Blazor.Auth0](https://github.com/henalbrod/Blazor.Auth0) Is a library for using the [Authorization Code Grant with Proof Key for Code Exchange (PKCE)](https://auth0.com/blog/oauth2-implicit-grant-and-spa/) with [Auth0's Universal Login](https://auth0.com/docs/libraries/when-to-use-lock) in Blazor SPAs.)
 
-The idea behind this is to have an easy way of using Auth0's services with Blazor (especially the client side) without relaying on javascript libraries.
+The idea behind this is to have an easy way of using AWS Cognito with Blazor (especially the client side) without relaying on javascript libraries.
 
 [![Nuget](https://img.shields.io/nuget/v/Blazor-Auth0-ServerSide?color=green&label=Nuget%3A%20Blazor-Auth0-ServerSide)](https://www.nuget.org/packages/Blazor-Auth0-ServerSide)
 [![Nuget](https://img.shields.io/nuget/v/Blazor-Auth0-ClientSide?color=green&label=Nuget%3A%20Blazor-Auth0-Clientside)](https://www.nuget.org/packages/Blazor-Auth0-ClientSide)
@@ -13,14 +13,11 @@ The idea behind this is to have an easy way of using Auth0's services with Blazo
 [![GitHub license](https://img.shields.io/github/license/henalbrod/Blazor.Auth0?color=blue)](https://github.com/henalbrod/Blazor.Auth0/blob/master/LICENSE)
 
 
-# About Auth0
-Auth0 is a platform that provides authentication and authorization as a service. Giving developers and companies the building blocks they need to secure their applications without having to become security experts.
-
-You can connect any application (written in any language or on any stack) to Auth0 and define the identity providers you want to use (how you want your users to log in).
+# About Cognito
+Amazon Cognito lets you add user sign-up, sign-in, and access control to your web and mobile apps quickly and easily. Amazon Cognito scales to millions of users and supports sign-in with social identity providers, such as Facebook, Google, and Amazon, and enterprise identity providers via SAML 2.0.
 
 Learn more at:
-
-[<img width="150" height="50" alt="JWT Auth for open source projects" src="https://cdn.auth0.com/oss/badges/a0-badge-dark.png">](https://auth0.com/?utm_source=oss&utm_medium=gp&utm_campaign=oss)
+https://aws.amazon.com/cognito/
 
 ## Prerequisites
 
