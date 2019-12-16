@@ -1,7 +1,5 @@
 # Blazor.Cognito
 
-<img src="https://raw.githubusercontent.com/henalbrod/Blazor.Auth0/master/src/Blazor.Auth0.ClientSide/icon.png" height="150" alt="Blazor Auth0 Library" align="right"/>
-
 ([Blazor.Auth0](https://github.com/henalbrod/Blazor.Auth0) Is a library for using the [Authorization Code Grant with Proof Key for Code Exchange (PKCE)](https://auth0.com/blog/oauth2-implicit-grant-and-spa/) with [Auth0's Universal Login](https://auth0.com/docs/libraries/when-to-use-lock) in Blazor SPAs.)
 
 The idea behind this is to have an easy way of using AWS Cognito with Blazor (especially the client side) without relaying on javascript libraries.
